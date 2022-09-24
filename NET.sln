@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchDemo", "TryCatchDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseDemo", "TryParseDemo\TryParseDemo.csproj", "{FFD056BA-C902-496E-A452-AA37B784EE6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLINQToObjectDemo", "FirstLINQToObjectDemo\FirstLINQToObjectDemo.csproj", "{6147074B-2E82-4D94-BB64-4CC7409A21C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FFD056BA-C902-496E-A452-AA37B784EE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD056BA-C902-496E-A452-AA37B784EE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD056BA-C902-496E-A452-AA37B784EE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6147074B-2E82-4D94-BB64-4CC7409A21C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6147074B-2E82-4D94-BB64-4CC7409A21C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6147074B-2E82-4D94-BB64-4CC7409A21C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6147074B-2E82-4D94-BB64-4CC7409A21C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
