@@ -21,7 +21,7 @@ namespace EnumDemo
         public static void Main(string[] args)
         {
             #region enum 強轉成 int
-
+            // 變量類型  變量名 = 值
             QQState qqState = QQState.Busy;
             int n = (int) qqState;
             Console.WriteLine((int) QQState.OnLine); // 從0開始
