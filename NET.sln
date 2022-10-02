@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutDemo", "OutDemo\OutDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefDemo", "RefDemo\RefDemo.csproj", "{0B0F31E7-7068-42D7-9E17-5F151F5740B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsDemo", "ParamsDemo\ParamsDemo.csproj", "{20079AA2-203B-4242-9E10-6EBCAF502F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{0B0F31E7-7068-42D7-9E17-5F151F5740B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B0F31E7-7068-42D7-9E17-5F151F5740B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B0F31E7-7068-42D7-9E17-5F151F5740B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20079AA2-203B-4242-9E10-6EBCAF502F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20079AA2-203B-4242-9E10-6EBCAF502F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20079AA2-203B-4242-9E10-6EBCAF502F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20079AA2-203B-4242-9E10-6EBCAF502F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
