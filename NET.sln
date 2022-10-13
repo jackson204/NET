@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyDemo", "PropertyDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAndNonStatic", "StaticAndNonStatic\StaticAndNonStatic.csproj", "{94C72A25-F1A8-4C85-891C-A59AFE224887}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrorDemo", "ConstrorDemo\ConstrorDemo.csproj", "{72523ED6-5900-42CB-B979-D9C34C3BF763}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{94C72A25-F1A8-4C85-891C-A59AFE224887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C72A25-F1A8-4C85-891C-A59AFE224887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C72A25-F1A8-4C85-891C-A59AFE224887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72523ED6-5900-42CB-B979-D9C34C3BF763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72523ED6-5900-42CB-B979-D9C34C3BF763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72523ED6-5900-42CB-B979-D9C34C3BF763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72523ED6-5900-42CB-B979-D9C34C3BF763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
