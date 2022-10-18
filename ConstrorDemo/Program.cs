@@ -18,48 +18,4 @@ namespace ConstrorDemo
             ticket.ShowTicket();
         }
     }
-
-    internal class Ticket
-    {
-        private int _distance;
-        private readonly int _price;
-
-        public Ticket(int distance)
-        {
-            _distance = distance;
-        }
-
-        public int Distance
-        {
-            get => _distance;
-        }
-
-        public double Price
-        {
-            get
-            {
-                if (_distance > 300)
-                {
-                    return _distance * 0.8;
-                }
-                else if (_distance > 200)
-                {
-                    return _distance * 0.9;
-                }
-                else if (_distance > 100)
-                {
-                    return _distance * 0.95;
-                }
-                else
-                {
-                    return _distance;
-                }
-            }
-        }
-
-        public void ShowTicket()
-        {
-            Console.WriteLine($"{Distance} send {this.Price}");
-        }
-    }
 }
