@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstrorDemo", "ConstrorDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDemo", "StringDemo\StringDemo.csproj", "{D7B14501-FC27-4F45-8F81-43E68B1C88A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{D7B14501-FC27-4F45-8F81-43E68B1C88A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B14501-FC27-4F45-8F81-43E68B1C88A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B14501-FC27-4F45-8F81-43E68B1C88A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
