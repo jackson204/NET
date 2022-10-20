@@ -42,5 +42,10 @@ namespace InheritanceDemo
         {
             Console.WriteLine("Person CHCSS");
         }
+
+        public void SayHello()
+        {
+            Console.WriteLine("Person Hello");
+        }
     }
 }
