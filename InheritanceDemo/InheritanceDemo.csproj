@@ -39,7 +39,9 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AirPlane.cs" />
         <Compile Include="Driver.cs" />
+        <Compile Include="Fly.cs" />
         <Compile Include="Person.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
