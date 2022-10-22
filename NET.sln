@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDemo", "StringDemo\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAsDemo", "IsAsDemo\IsAsDemo.csproj", "{4C46E8B8-D7A5-44C4-9556-24E0CF8A6DE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3244FC0-28C4-41FE-BC75-58554EDFA9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C46E8B8-D7A5-44C4-9556-24E0CF8A6DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C46E8B8-D7A5-44C4-9556-24E0CF8A6DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C46E8B8-D7A5-44C4-9556-24E0CF8A6DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C46E8B8-D7A5-44C4-9556-24E0CF8A6DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
