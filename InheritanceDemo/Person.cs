@@ -15,6 +15,7 @@ namespace InheritanceDemo
 
         protected Person(string name, int age, char gender)
         {
+            Console.WriteLine("Person CTOR");
             this.Name = name;
             this.Age = age;
             this.Gender = gender;

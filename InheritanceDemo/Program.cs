@@ -19,11 +19,11 @@ namespace InheritanceDemo
             airPlane.Info();
             
             //子類沒有繼承父類的ctor 但是子類會默認調用父類的無參數的ctor，因為要創建父類的物件，讓子類可以使用父類的成員 
-            var teacher = new Teacher("A",12,'d',1600);
+            Teacher teacher = new Teacher("A",12,'d',1600);
             teacher.Teach();
-            var student = new Student("A",12,'d',24);
+            Student student = new Student("A",12,'d',24);
             student.Study();
-            var driver = new Driver("A",12,'d',DateTime.Now);
+            Driver driver = new Driver("A",13,'d',DateTime.Now);
             driver.Drive();
 
             //子類方法 與 父類方法相同 則呼叫子類的方法 

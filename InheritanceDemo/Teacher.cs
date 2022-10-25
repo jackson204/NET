@@ -15,6 +15,7 @@ namespace InheritanceDemo
         public Teacher(string name, int age, char gender, int salary)
             : base(name, age, gender)
         {
+            Console.WriteLine("Teacher CTOR");
             Salary = salary;
         }
     }
