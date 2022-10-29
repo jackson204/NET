@@ -26,7 +26,7 @@ namespace InheritanceDemo
             Driver driver = new Driver("A",13,'d',DateTime.Now);
             driver.Drive();
 
-            //子類方法 與 父類方法相同 則呼叫子類的方法 
+            //子類方法 與 父類方法相同  看呼叫方法的類別是誰 
             student.SayHello();
         }
     }
