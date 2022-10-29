@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo", "Polymor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideDemo", "OverrideDemo\OverrideDemo.csproj", "{73D313B2-0849-4BD2-93EC-25DFDD17F1C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDemo", "AbstractDemo\AbstractDemo.csproj", "{EB712B47-DE6B-404A-B10D-3F4D2CE4FAAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,5 +146,9 @@ Global
 		{73D313B2-0849-4BD2-93EC-25DFDD17F1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73D313B2-0849-4BD2-93EC-25DFDD17F1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73D313B2-0849-4BD2-93EC-25DFDD17F1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB712B47-DE6B-404A-B10D-3F4D2CE4FAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB712B47-DE6B-404A-B10D-3F4D2CE4FAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB712B47-DE6B-404A-B10D-3F4D2CE4FAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB712B47-DE6B-404A-B10D-3F4D2CE4FAAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
