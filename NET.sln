@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordClassDemo", "RecordCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemo", "DelegateDemo\DelegateDemo.csproj", "{B5E97A66-54F9-4534-93E4-0C266D573419}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsDemo", "FluentAssertionsDemo\FluentAssertionsDemo.csproj", "{A961951E-4915-4EB0-B0BE-67DC2FA8E300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,9 @@ Global
 		{B5E97A66-54F9-4534-93E4-0C266D573419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E97A66-54F9-4534-93E4-0C266D573419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5E97A66-54F9-4534-93E4-0C266D573419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
