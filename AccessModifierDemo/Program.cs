@@ -3,31 +3,23 @@ using System.Security.AccessControl;
 
 namespace AccessModifierDemo
 {
+    // public :公開的
+    // private : 私有的，只能當前類的內部訪問
+    // protected : 只能當前類的內部以及該類的子類別訪問
+    // internal:只能當前的項目訪問，在同一個項目中，internal 和 public 的權限是一樣的
     internal class Program
     {
         public static void Main(string[] args)
         {
-            var person = new Person();
         }
     }
 
-    public class Person
+    //能夠修飾class的訪問修飾的只有兩個: public internal
+    internal class Person
     {
-        // 子類可以訪問的到
-        protected string _name;
-
-        public string Name
-        {
-            get => _name;
-            set => _name = value;
-        }
     }
 
-    public class Student : Person
+    public class Student
     {
-        public void Test()
-        {
-            Console.WriteLine(this._name);
-        }
     }
 }

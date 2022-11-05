@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateDemo", "DelegateDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAssertionsDemo", "FluentAssertionsDemo\FluentAssertionsDemo.csproj", "{A961951E-4915-4EB0-B0BE-67DC2FA8E300}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifierDemo2", "AccessModifierDemo2\AccessModifierDemo2.csproj", "{9745EDBB-5772-4FD6-954A-13CAAA33D66E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +164,9 @@ Global
 		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A961951E-4915-4EB0-B0BE-67DC2FA8E300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9745EDBB-5772-4FD6-954A-13CAAA33D66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9745EDBB-5772-4FD6-954A-13CAAA33D66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9745EDBB-5772-4FD6-954A-13CAAA33D66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9745EDBB-5772-4FD6-954A-13CAAA33D66E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
