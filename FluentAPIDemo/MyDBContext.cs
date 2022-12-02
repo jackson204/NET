@@ -14,10 +14,10 @@ namespace FluentAPIDemo
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-            modelBuilder.Configurations.AddFromAssembly(Assembly.GetExecutingAssembly()); 
+           // base.OnModelCreating(modelBuilder);
+            //modelBuilder.Configurations.AddFromAssembly(Assembly.GetExecutingAssembly()); 
 
-            // modelBuilder.Configurations.Add(new PersonConfig());
+             modelBuilder.Configurations.Add(new PersonConfig());
         }
     }
 }

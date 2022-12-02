@@ -1,0 +1,10 @@
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\bin\Debug\JsonConvertDateTimeDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\bin\Debug\JsonConvertDateTimeDemo.pdb
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\obj\Debug\JsonConvertDateTimeDemo.csproj.AssemblyReference.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\obj\Debug\JsonConvertDateTimeDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\obj\Debug\JsonConvertDateTimeDemo.csproj.CoreCompileInputs.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\obj\Debug\JsonConvertDateTimeDemo.csproj.CopyComplete
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\obj\Debug\JsonConvertDateTimeDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\JsonConvertDateTimeDemo\obj\Debug\JsonConvertDateTimeDemo.pdb

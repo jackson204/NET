@@ -1,0 +1,7 @@
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.CoreCompileInputs.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\bin\Debug\InterfaceDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\bin\Debug\InterfaceDemo.pdb
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\obj\Debug\InterfaceDemo.csproj.AssemblyReference.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\obj\Debug\InterfaceDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\InterfaceDemo\obj\Debug\InterfaceDemo.pdb

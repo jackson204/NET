@@ -1,0 +1,10 @@
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\bin\Debug\AccessModifierDemo2.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\bin\Debug\AccessModifierDemo2.pdb
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\bin\Debug\AccessModifierDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\bin\Debug\AccessModifierDemo.pdb
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\obj\Debug\AccessModifierDemo2.csproj.AssemblyReference.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\obj\Debug\AccessModifierDemo2.csproj.SuggestedBindingRedirects.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\obj\Debug\AccessModifierDemo2.csproj.CoreCompileInputs.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\obj\Debug\AccessModifierDemo2.csproj.CopyComplete
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\obj\Debug\AccessModifierDemo2.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\AccessModifierDemo2\obj\Debug\AccessModifierDemo2.pdb
