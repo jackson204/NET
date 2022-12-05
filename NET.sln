@@ -66,6 +66,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethodDemo", "Exte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldDemo", "YieldDemo\YieldDemo.csproj", "{5E7EAD88-F4BC-475D-A36B-20DBAEF04721}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqGroupByDemo", "LinqGroupByDemo\LinqGroupByDemo.csproj", "{A911B90A-63B5-40F3-BDFF-3DCCC356CAEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -204,5 +206,9 @@ Global
 		{5E7EAD88-F4BC-475D-A36B-20DBAEF04721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7EAD88-F4BC-475D-A36B-20DBAEF04721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7EAD88-F4BC-475D-A36B-20DBAEF04721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A911B90A-63B5-40F3-BDFF-3DCCC356CAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A911B90A-63B5-40F3-BDFF-3DCCC356CAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A911B90A-63B5-40F3-BDFF-3DCCC356CAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A911B90A-63B5-40F3-BDFF-3DCCC356CAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
