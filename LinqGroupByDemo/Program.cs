@@ -38,6 +38,18 @@ namespace LinqGroupByDemo
             {
                 Console.WriteLine($"{item.Title} , {item.Num}");
             }
+
+            #region orderby  (ascending 升序 可省略) 40 50 .....
+
+            var result3 = from p in lists
+                                    orderby p.Number ascending 
+                                    select p;
+            foreach (var person in result3)
+            {
+                Console.WriteLine(person.Number);
+            }
+
+            #endregion
         }
     }
 }
