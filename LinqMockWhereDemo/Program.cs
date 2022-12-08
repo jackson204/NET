@@ -33,6 +33,10 @@ namespace LinqMockWhereDemo
             }
             var persons2 = lists.MyWhere(r => r.Category == "鞋子")
                 .Select(p => p);
+            
+            var persons3 = lists.MyWhere(Func2)
+                .Select(p => p);
+
 
             Console.WriteLine(new string('*', 10));
             foreach (var person in persons2)
@@ -40,20 +44,21 @@ namespace LinqMockWhereDemo
                 Console.WriteLine($"ProductName = {person.ProductName} , Number = {person.Number}");
             }
 
-            Func<Person, bool> a = person =>
-            {
-                return person.Category == "鞋子";
-            };
             var person1 = new Person();
             person1.ProductName = "AAA";
             person1.Category = "鞋子";
-            var b = a(person1);
+            var b = Func2(person1);
             Console.WriteLine( b);
             var person2 = new Person();
             person2.ProductName = "BBB";
             person2.Category = "BBB";
-            var b1 = a(person2);
+            var b1 = Func2(person2);
             Console.WriteLine(b1);
+        }
+
+        public static bool Func2(Person person)
+        {
+            return person.Category == "鞋子";
         }
     }
 
@@ -63,7 +68,9 @@ namespace LinqMockWhereDemo
         {
             foreach (var person in list)
             {
-                if (func(person)) //r => r.Category =="鞋子"
+                if (func.Invoke(person))
+                // if (func(person))
+                // if (Program.Func2(person))
                 {
                     yield return person;
                 }
