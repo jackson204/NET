@@ -11,6 +11,7 @@ namespace FluentAPIDemo
         }
 
         public virtual DbSet<Person> Persons { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

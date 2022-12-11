@@ -72,15 +72,22 @@ namespace FluentAPIDemo
             //
             //
             // db.SaveChanges();
-            var person6 = new Person
+            // var person6 = new Person
+            // {
+            //     Name = "Name1",
+            //     Age = 18,
+            //     Salary = 100,
+            //     JobOccupation = "Job",
+            //     CreateDateTime = DateTime.Now
+            // };
+            // db.Persons.Add(person6);
+            // db.SaveChanges();
+
+            var product = new Product()
             {
-                Name = "Name1",
-                Age = 18,
-                Salary = 100,
-                JobOccupation = "Job",
-                CreateDateTime = DateTime.Now
+                ProductName = "test"
             };
-            db.Persons.Add(person6);
+            db.Product.Add(product);
             db.SaveChanges();
         }
     }
