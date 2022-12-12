@@ -87,7 +87,9 @@ namespace FluentAPIDemo
             {
                 ProductName = "test"
             };
+            //Add()添加紀錄時，只是將數據提交道內存，沒有提交到數據庫
             db.Product.Add(product);
+            //提交道數據庫
             db.SaveChanges();
         }
     }
