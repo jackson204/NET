@@ -70,6 +70,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqGroupByDemo", "LinqGrou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMockWhereDemo", "LinqMockWhereDemo\LinqMockWhereDemo.csproj", "{51331590-BD6E-421B-8462-E22BC05E59DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteSqlCommandDemo", "ExecuteSqlCommandDemo\ExecuteSqlCommandDemo.csproj", "{51EB1185-4672-46B2-909B-FC02413ED047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -216,5 +218,9 @@ Global
 		{51331590-BD6E-421B-8462-E22BC05E59DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51331590-BD6E-421B-8462-E22BC05E59DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51331590-BD6E-421B-8462-E22BC05E59DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EB1185-4672-46B2-909B-FC02413ED047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EB1185-4672-46B2-909B-FC02413ED047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EB1185-4672-46B2-909B-FC02413ED047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EB1185-4672-46B2-909B-FC02413ED047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
