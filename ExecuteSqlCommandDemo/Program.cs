@@ -8,6 +8,7 @@ namespace ExecuteSqlCommandDemo
         {
             using (var db = new MyDbContext())
             {
+                db.Database.Log = s => Console.WriteLine(s);
                 var sql = @"create table dbo.ProductUser
                 (
                     id       int not null
