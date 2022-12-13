@@ -10,9 +10,5 @@ namespace ExecuteSqlCommandDemo
             : base("name=MyDBEntities2")
         {
         }
-        
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-        }
     }
 }
