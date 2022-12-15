@@ -3,12 +3,13 @@ using System.Collections.Generic;
 
 namespace CodeFirstDemo
 {
-    public sealed class User
+    public class User
     {
         public User()
         {
             Orders = new HashSet<Order>();
         }
+
         public int Id { get; set; }
 
         public string Email { get; set; }
@@ -17,6 +18,6 @@ namespace CodeFirstDemo
 
         public DateTime? LoginTime { get; set; }
 
-        public ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }
