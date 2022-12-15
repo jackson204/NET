@@ -41,7 +41,7 @@ namespace CodeFirstDemo
                 //
                 //     // user.Orders
                 // };
-                // _db.Users.Add(user);
+                // _db.Users.Add(user); //debug 模式 db.ChangeTracker.Entries()
                 // _db.SaveChanges();
 
                 #endregion
