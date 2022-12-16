@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using CodeFirstDemo.Model;
@@ -16,33 +17,33 @@ namespace CodeFirstDemo
 
                 #region 新增
 
-                // var user = new User()
-                // {
-                //     Email = "AA",
-                //     Pwd = "123456",
-                //     LoginTime = DateTime.Now,
-                //     Orders = new List<Order>()
-                //     {
-                //         new Order()
-                //         {
-                //             Address = "Address",
-                //             Message = "Message",
-                //             Phone = "89841310",
-                //             Status = "Status",
-                //         },
-                //         new Order()
-                //         {
-                //             Address = "2Address2",
-                //             Message = "2Message2",
-                //             Phone = "298413102",
-                //             Status = "2Status2",
-                //         },
-                //     }
-                //
-                //     // user.Orders
-                // };
-                // _db.Users.Add(user); //debug 模式 db.ChangeTracker.Entries()
-                // _db.SaveChanges();
+                var user = new User()
+                {
+                    Email = "AA",
+                    // Pwd = "123456",
+                    // LoginTime = DateTime.Now,
+                    // Orders = new List<Order>()
+                    // {
+                    //     new Order()
+                    //     {
+                    //         Address = "Address",
+                    //         Message = "Message",
+                    //         Phone = "89841310",
+                    //         Status = "Status",
+                    //     },
+                    //     new Order()
+                    //     {
+                    //         Address = "2Address2",
+                    //         Message = "2Message2",
+                    //         Phone = "298413102",
+                    //         Status = "2Status2",
+                    //     },
+                    // }
+                
+                    // user.Orders
+                };
+                db.Users.Add(user); //debug 模式 db.ChangeTracker.Entries()
+                db.SaveChanges();
 
                 #endregion
 
@@ -61,8 +62,8 @@ namespace CodeFirstDemo
 
                 #region including
 
-                var reuslt = db.Users.Include(r => r.Orders).FirstOrDefault(r=>r.Id==1);
-                Console.WriteLine(reuslt);
+                var result = db.Users.Include(r => r.Orders).FirstOrDefault(r=>r.Id==1);
+                Console.WriteLine(result);
 
                 #endregion
             }

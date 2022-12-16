@@ -7,7 +7,7 @@ namespace CodeFirstDemo
     {
         public User()
         {
-            Orders = new HashSet<Order>();
+            this.Orders = new HashSet<Order>();
         }
 
         public int Id { get; set; }
