@@ -74,6 +74,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteSqlCommandDemo", "Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemo", "CodeFirstDemo\CodeFirstDemo.csproj", "{0C053BA0-50BB-4146-9A1E-31B8659E827B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityStateDemo", "EntityStateDemo\EntityStateDemo.csproj", "{91ECCC15-C108-483B-8373-97DCAB1313E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -228,5 +230,9 @@ Global
 		{0C053BA0-50BB-4146-9A1E-31B8659E827B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C053BA0-50BB-4146-9A1E-31B8659E827B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C053BA0-50BB-4146-9A1E-31B8659E827B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91ECCC15-C108-483B-8373-97DCAB1313E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ECCC15-C108-483B-8373-97DCAB1313E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ECCC15-C108-483B-8373-97DCAB1313E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ECCC15-C108-483B-8373-97DCAB1313E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
