@@ -50,6 +50,8 @@
         <Compile Include="Model\MyDBContext.cs" />
         <Compile Include="Model\Student.cs" />
         <Compile Include="Model\StudentAddress.cs" />
+        <Compile Include="Model\StudentAddressConfig.cs" />
+        <Compile Include="Model\StudentConfig.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

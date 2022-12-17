@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Configuration;
 
 namespace CodeFirstDemoOneToOne.Model
 {
@@ -13,5 +14,10 @@ namespace CodeFirstDemoOneToOne.Model
 
         public virtual DbSet<StudentAddress>StudentAddresses { get; set; }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Configurations.Add(new StudentConfig());
+            modelBuilder.Configurations.Add(new StudentAddressConfig());
+        }
     }
 }
