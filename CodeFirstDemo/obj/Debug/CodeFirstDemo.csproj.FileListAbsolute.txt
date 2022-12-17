@@ -1,0 +1,13 @@
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe.config
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\CodeFirstDemo.pdb
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\EntityFramework.dll
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\EntityFramework.xml
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.AssemblyReference.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CoreCompileInputs.cache
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CopyComplete
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\obj\Debug\CodeFirstDemo.exe
+C:\Users\s9740\Desktop\Practice\2022\NET\CodeFirstDemo\obj\Debug\CodeFirstDemo.pdb
