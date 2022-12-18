@@ -80,6 +80,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemoOneToOne", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemoOneToMany", "CodeFirstDemoOneToMany\CodeFirstDemoOneToMany.csproj", "{A609B69F-4F41-47EB-AEAD-2DECC7AF22CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemoManyToMany", "CodeFirstDemoManyToMany\CodeFirstDemoManyToMany.csproj", "{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,5 +248,9 @@ Global
 		{A609B69F-4F41-47EB-AEAD-2DECC7AF22CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A609B69F-4F41-47EB-AEAD-2DECC7AF22CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A609B69F-4F41-47EB-AEAD-2DECC7AF22CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
