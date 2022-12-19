@@ -14,9 +14,8 @@ namespace CodeFirstDemoManyToMany.Model
                 .WithMany(c => c.Students)
                 .Map(cs =>
                 {
-                    //左右?
-                    cs.MapLeftKey("StudentRefId444444444444");
-                    cs.MapRightKey("CourseRefId555555555555");
+                    cs.MapLeftKey("StudentRefId444444444444");//當前主題是誰 EX:Student 
+                    cs.MapRightKey("CourseRefId555555555555");//Course
                     cs.ToTable("StudentCourse");
                 });
         }

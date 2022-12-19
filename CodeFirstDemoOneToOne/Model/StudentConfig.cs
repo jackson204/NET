@@ -20,7 +20,6 @@ namespace CodeFirstDemoOneToOne.Model
                 .HasMaxLength(50) //長度
                 .IsRequired();    //允不允許null
 
-            //TODO PK在哪?
             this.HasRequired(s => s.StudentAddress)
                 .WithRequiredPrincipal(ad => ad.Student);
         }
