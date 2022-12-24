@@ -5,7 +5,7 @@ namespace AwaitAsyncDemo1
 {
     class Program
     {
-        //Main() 不支持異部方法 使用Result
+        //Main() 不支持異部方法 使用Result，盡量不要使用 會造成死鎖
         static void Main(string[] args)
         {
             var fileName = @"C:\Users\s9740\Desktop\test.txt";
