@@ -82,6 +82,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemoOneToMany", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemoManyToMany", "CodeFirstDemoManyToMany\CodeFirstDemoManyToMany.csproj", "{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitAsyncDemo", "AwaitAsyncDemo\AwaitAsyncDemo.csproj", "{529E9E67-28F8-45DD-8D12-BB0B95E077E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitAsyncDemo1", "AwaitAsyncDemo1\AwaitAsyncDemo1.csproj", "{F4A99CCD-170D-48C6-9BAA-9451E553E756}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -252,5 +256,13 @@ Global
 		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E7E1BFA-8B8C-4D25-B7CB-D7C34BE887E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529E9E67-28F8-45DD-8D12-BB0B95E077E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529E9E67-28F8-45DD-8D12-BB0B95E077E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529E9E67-28F8-45DD-8D12-BB0B95E077E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529E9E67-28F8-45DD-8D12-BB0B95E077E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A99CCD-170D-48C6-9BAA-9451E553E756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A99CCD-170D-48C6-9BAA-9451E553E756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A99CCD-170D-48C6-9BAA-9451E553E756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A99CCD-170D-48C6-9BAA-9451E553E756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
