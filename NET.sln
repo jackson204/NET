@@ -88,6 +88,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitAsyncDemo1", "AwaitAsy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitAsyncDemo2", "AwaitAsyncDemo2\AwaitAsyncDemo2.csproj", "{983F9B5A-42FF-4654-8ADF-FB17DEC29286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitAsyncDemo3", "AwaitAsyncDemo3\AwaitAsyncDemo3.csproj", "{DC110C3F-2786-4BD1-A285-6EC458950E09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -270,5 +272,9 @@ Global
 		{983F9B5A-42FF-4654-8ADF-FB17DEC29286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{983F9B5A-42FF-4654-8ADF-FB17DEC29286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{983F9B5A-42FF-4654-8ADF-FB17DEC29286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC110C3F-2786-4BD1-A285-6EC458950E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC110C3F-2786-4BD1-A285-6EC458950E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC110C3F-2786-4BD1-A285-6EC458950E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC110C3F-2786-4BD1-A285-6EC458950E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
