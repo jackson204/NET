@@ -29,21 +29,27 @@ namespace ReflectionDemo
             // var assembly = Assembly.LoadFrom(@"C:\Users\s9740\Desktop\Practice\2022\NET\ReflectionClassDemo\bin\Debug\ReflectionClassDemo.dll");
             //
             // #endregion
+
             #region 方式四 完整名稱
-            
+
             var assembly = Assembly.LoadFrom(@"ReflectionClassDemo.dll");
-            
+
             #endregion
-            
+
             //2.獲取指定類型
             var type = assembly.GetType("ReflectionClassDemo.ReflectionTest");
-            
-            //實例化
-            // ReflectionTest reflectionTest = new ReflectionTest();
 
-            object instance = Activator.CreateInstance(type);
+            //實例化
+            // ReflectionTest reflectionTest = new ReflectionTest(); //靜態
             
+            #region 呼叫public 的 ctor
+            
+            // object instance = Activator.CreateInstance(type);                       //動態
+            object instance = Activator.CreateInstance(type, new object[] {"反射"}); //動態
+            #endregion
+            
+            var type2 = assembly.GetType("ReflectionClassDemo.ReflectionTest2"); 
+            object instance2 = Activator.CreateInstance(type2,true);                       //動態
         }
-        
     }
 }
