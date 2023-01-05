@@ -96,6 +96,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionDemo", "Reflectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionClassDemo", "ReflectionClassDemo\ReflectionClassDemo.csproj", "{0EF579B9-1132-4E90-9E10-F185BF63063F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOCDemo01", "IOCDemo01\IOCDemo01.csproj", "{B475EF4A-95FE-4B21-8209-14803A96D5A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -294,5 +296,9 @@ Global
 		{0EF579B9-1132-4E90-9E10-F185BF63063F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF579B9-1132-4E90-9E10-F185BF63063F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF579B9-1132-4E90-9E10-F185BF63063F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B475EF4A-95FE-4B21-8209-14803A96D5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B475EF4A-95FE-4B21-8209-14803A96D5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B475EF4A-95FE-4B21-8209-14803A96D5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B475EF4A-95FE-4B21-8209-14803A96D5A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

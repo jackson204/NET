@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0l8GwgsZQJGnBDeEQajTWl4saMh2xvUqj+PWtaZihLP5oQXOQpZq/bmkWWK3TbwG2oQeI5rXWXeTPWpB38c4wA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\s9740\\Desktop\\Practice\\2022\\NET\\IOCDemo01\\IOCDemo01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\s9740\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\s9740\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\s9740\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}
