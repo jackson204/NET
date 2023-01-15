@@ -14,9 +14,8 @@ namespace TryCatchDemo
             {
                 //語法上沒有錯誤，在運行中，某些原因出現了錯誤，不能運行
                 input = Convert.ToInt32(readLine);
-             
             }
-            catch (Exception e)
+            catch (FormatException e) 
             {
                 Console.WriteLine($"不能轉為數字 {e.Message}");
                 b = false;
