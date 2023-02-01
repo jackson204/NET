@@ -5,7 +5,7 @@ namespace BreakDemo
     internal class Program
     {
         /// <summary>
-        /// while 跳出當前循環 
+        /// break 跳出當前循環 
         /// </summary>
         /// <param name="args"></param>
         public static void Main(string[] args)
