@@ -15,6 +15,22 @@ namespace EqualDemo
             Console.WriteLine($"{object.ReferenceEquals(s1, s2)} {s1 == s2} {s1.Equals(s2)}");
             Console.WriteLine($"{object.ReferenceEquals(s1, s3)} {s1 == s3} {s1.Equals(s3)}");
             Console.WriteLine($"{object.ReferenceEquals(s1, s4)} {s1 == s4} {s1.Equals(s4)}");
+            
+            
+            string value1 = "abc";
+            string value2 = "abc";
+            string value3 = "ABC";
+            bool areEqual = (value1 == value2);
+            Console.WriteLine($"{value1}, {value2} 是否相等? {areEqual}");
+
+            areEqual = (value1 == value3);
+            Console.WriteLine($"{value1}, {value3} 是否相等? {areEqual}");
+            
+            areEqual = (value1.Equals(value2));
+            Console.WriteLine($"{value1}, {value2} 是否相等? {areEqual}");
+
+            areEqual = (value1.Equals(value3));
+            Console.WriteLine($"{value1}, {value3} 是否相等? {areEqual}");
         }
     }
 }
