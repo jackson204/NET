@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using FluentAssertions;
 using NSubstitute;
 using Xunit;
@@ -7,12 +8,13 @@ namespace BudgetDemo
 {
     public class BudgetCalculatorTests
     {
-        private BudgetCalculator _target;
+        private readonly BudgetCalculator _target;
+        private readonly IServiceRepository _service;
 
         public BudgetCalculatorTests()
         {
-            
-            _target = new BudgetCalculator();
+            _service = Substitute.For<IServiceRepository>();
+            _target = new BudgetCalculator(_service);
         }
 
         [Fact]
@@ -21,6 +23,13 @@ namespace BudgetDemo
             //Arrange
             var start = new DateTime(2023, 1, 1);
             var end = new DateTime(2023, 1, 1);
+
+            _service.GetBudgets().Returns(new List<Budget>()
+            {
+                new Budget {Month = "202301", Amount = 3100},
+                new Budget {Month = "202302", Amount = 0},
+                new Budget {Month = "202305", Amount = 310},
+            });
 
             //Act
             var actual = _target.CalculateBudget(start, end);

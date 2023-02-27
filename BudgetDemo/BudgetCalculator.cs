@@ -4,7 +4,7 @@ namespace BudgetDemo
 {
     public class BudgetCalculator
     {
-        public BudgetCalculator()
+        public BudgetCalculator(IServiceRepository serviceRepository)
         {
             throw new NotImplementedException();
         }
