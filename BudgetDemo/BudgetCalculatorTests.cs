@@ -23,13 +23,7 @@ namespace BudgetDemo
             //Arrange
             var start = new DateTime(2023, 1, 1);
             var end = new DateTime(2023, 1, 1);
-
-            _service.GetBudgets().Returns(new List<Budget>()
-            {
-                new Budget {Month = "202301", Amount = 3100},
-                new Budget {Month = "202302", Amount = 0},
-                new Budget {Month = "202305", Amount = 310},
-            });
+            GivenBudgets();
 
             //Act
             var actual = _target.CalculateBudget(start, end);
@@ -44,19 +38,23 @@ namespace BudgetDemo
             //Arrange
             var start = new DateTime(2023, 1, 1);
             var end = new DateTime(2023, 1, 2);
+            GivenBudgets();
+            
+            //Act
+            var actual = _target.CalculateBudget(start, end);
 
+            //Assert
+            actual.Should().Be(200);
+        }
+
+        private void GivenBudgets()
+        {
             _service.GetBudgets().Returns(new List<Budget>()
             {
                 new Budget {Month = "202301", Amount = 3100},
                 new Budget {Month = "202302", Amount = 0},
                 new Budget {Month = "202305", Amount = 310},
             });
-
-            //Act
-            var actual = _target.CalculateBudget(start, end);
-
-            //Assert
-            actual.Should().Be(200);
         }
     }
 }
