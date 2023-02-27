@@ -31,7 +31,7 @@ namespace BudgetDemo
             //Assert
             actual.Should().Be(100);
         }
-        
+
         [Fact]
         public void Success_when_sameMonth_TwoDays()
         {
@@ -39,12 +39,28 @@ namespace BudgetDemo
             var start = new DateTime(2023, 1, 1);
             var end = new DateTime(2023, 1, 2);
             GivenBudgets();
-            
+
             //Act
             var actual = _target.CalculateBudget(start, end);
 
             //Assert
             actual.Should().Be(200);
+        }
+
+        [Fact]
+        public void Success_when_differentMonths()
+        {
+            //Arrange
+            var start = new DateTime(2023, 1, 31);
+
+            var end = new DateTime(2023, 5, 1);
+            GivenBudgets();
+
+            //Act
+            var actual = _target.CalculateBudget(start, end);
+
+            //Assert
+            actual.Should().Be(110);
         }
 
         private void GivenBudgets()
