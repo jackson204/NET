@@ -22,7 +22,7 @@ namespace BudgetDemo
             var daysInMonth = DateTime.DaysInMonth(start.Year, start.Month);
 
             //3.分配給每天 與 計算天數
-            return budget.Amount / daysInMonth * ((start - end).Days + 1);
+            return budget.Amount / daysInMonth * ((end - start).Days + 1);
         }
     }
 }
