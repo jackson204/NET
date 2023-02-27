@@ -53,14 +53,14 @@ namespace BudgetDemo
             //Arrange
             var start = new DateTime(2023, 1, 31);
 
-            var end = new DateTime(2023, 5, 1);
+            var end = new DateTime(2023, 5, 2);
             GivenBudgets();
 
             //Act
             var actual = _target.CalculateBudget(start, end);
 
             //Assert
-            actual.Should().Be(110);
+            actual.Should().Be(120);
         }
 
         private void GivenBudgets()
