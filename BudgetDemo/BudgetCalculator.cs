@@ -21,10 +21,8 @@ namespace BudgetDemo
             //2.找出當月天數
             var daysInMonth = DateTime.DaysInMonth(start.Year, start.Month);
 
-            //3.分配給每天
-            var everydayBudget = budget.Amount / daysInMonth;
-            var days = (start - end).Days + 1;
-            return everydayBudget * days;
+            //3.分配給每天 與 計算天數
+            return budget.Amount / daysInMonth * ((start - end).Days + 1);
         }
     }
 }
