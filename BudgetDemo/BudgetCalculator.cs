@@ -32,8 +32,8 @@ namespace BudgetDemo
 
         private decimal DifferentMonthsBudgets(DateTime start, DateTime end)
         {
-            return CalculateTheBudgetForTheStartMonth(start) + 
-                CalculateTheBudgetForTheInterimMonths(start, end) + 
+            return CalculateTheBudgetForTheStartMonth(start) +
+                CalculateTheBudgetForTheInterimMonths(start, end) +
                 CalculateTheBudgetForTheEndMonth(end);
         }
 
@@ -41,11 +41,15 @@ namespace BudgetDemo
         {
             var endBudget = QueryMonthlyBudget(end);
 
+            if (endBudget is null)
+            {
+                return 0;
+            }
             //2.找出當月天數
             var endDaysInMonth = QueryDaysInMonth(end);
 
             //3.分配給每天 與 計算天數
-            return (endBudget ?? new Budget()).Amount / endDaysInMonth * end.Day;
+            return endBudget.Amount / endDaysInMonth * end.Day;
         }
 
         private decimal CalculateTheBudgetForTheInterimMonths(DateTime start, DateTime end)
@@ -69,11 +73,16 @@ namespace BudgetDemo
         {
             var startBudget = QueryMonthlyBudget(start);
 
+            if (startBudget is null)
+            {
+                return 0;
+            }
+
             //2.找出當月天數
             var daysInMonth = QueryDaysInMonth(start);
 
             //3.分配給每天 與 計算天數
-            return (startBudget ?? new Budget()).Amount / daysInMonth * (daysInMonth - start.Day + 1);
+            return startBudget.Amount / daysInMonth * (daysInMonth - start.Day + 1);
         }
 
         private int QueryDaysInMonth(DateTime start)
