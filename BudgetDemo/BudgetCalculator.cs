@@ -1,17 +1,30 @@
 ﻿using System;
+using System.Linq;
 
 namespace BudgetDemo
 {
     public class BudgetCalculator
     {
-        public BudgetCalculator(IServiceRepository serviceRepository)
+        private readonly IServiceRepository _service;
+
+        public BudgetCalculator(IServiceRepository service)
         {
-            throw new NotImplementedException();
+            _service = service;
         }
 
-        public decimal CalculateBudget(DateTime start, DateTime dateTime)
+        public decimal CalculateBudget(DateTime start, DateTime end)
         {
-            throw new NotImplementedException();
+            //同月 
+            //1.找出預算
+            var budget = _service.GetBudgets().FirstOrDefault(r => r.Month == start.ToString("yyyyMM"));
+
+            //2.找出當月天數
+            var daysInMonth = DateTime.DaysInMonth(start.Year, start.Month);
+
+            //3.分配給每天
+            var everydayBudget = budget.Amount / daysInMonth;
+            var days = (start - end).Days + 1;
+            return everydayBudget * days;
         }
     }
 }
