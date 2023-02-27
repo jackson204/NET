@@ -32,18 +32,12 @@ namespace BudgetDemo
 
         private decimal DifferentMonthsBudgets(DateTime start, DateTime end)
         {
-            // 計算開始月份的預算
-            var budgets = CalculateTheBudgetForTheStartMonth(start);
-
-            // 計算中間月份的預算
-            budgets = CalculateTheBudgetForTheInterimMonths(start, end, budgets);
-
-            // 計算結束月份的預算
-            budgets = CalculateTheBudgetForTheEndMonth(end, budgets);
-            return budgets;
+            return CalculateTheBudgetForTheStartMonth(start) + 
+                CalculateTheBudgetForTheInterimMonths(start, end) + 
+                CalculateTheBudgetForTheEndMonth(end);
         }
 
-        private decimal CalculateTheBudgetForTheEndMonth(DateTime end, decimal budgets)
+        private decimal CalculateTheBudgetForTheEndMonth(DateTime end)
         {
             var endBudget = QueryMonthlyBudget(end);
 
@@ -51,14 +45,13 @@ namespace BudgetDemo
             var endDaysInMonth = QueryDaysInMonth(end);
 
             //3.分配給每天 與 計算天數
-            var endBudgetAmount = endBudget.Amount / endDaysInMonth * end.Day;
-            budgets += endBudgetAmount;
-            return budgets;
+            return endBudget.Amount / endDaysInMonth * end.Day;
         }
 
-        private decimal CalculateTheBudgetForTheInterimMonths(DateTime start, DateTime end, decimal budgets)
+        private decimal CalculateTheBudgetForTheInterimMonths(DateTime start, DateTime end)
         {
             var endDate = new DateTime(end.Year, end.Month, 1);
+            decimal budgets = 0;
             for(var month = start.AddMonths(1); month < endDate; month = month.AddMonths(1))
             {
                 var budget = QueryMonthlyBudget(month);
@@ -80,8 +73,7 @@ namespace BudgetDemo
             var daysInMonth = QueryDaysInMonth(start);
 
             //3.分配給每天 與 計算天數
-            var budgets = startBudget.Amount / daysInMonth * (daysInMonth - start.Day + 1);
-            return budgets;
+            return startBudget.Amount / daysInMonth * (daysInMonth - start.Day + 1);
         }
 
         private int QueryDaysInMonth(DateTime start)
