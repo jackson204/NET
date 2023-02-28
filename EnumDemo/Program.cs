@@ -56,12 +56,16 @@ namespace EnumDemo
             #region string 轉 enum
 
             string name = "Leave";
+            // QqState o = (QqState)name;(無法強制轉換) 強轉的前提是兩個類型需要兼容
+            //string轉成int int.Parse()
             Type enumType = typeof(QqState);
+            //parse()目的是為了讓他幫助我們將一個string轉換成對應的枚舉類型
             QqState o = (QqState) Enum.Parse(enumType, name);
             Console.WriteLine(o);
             
             name = "9"; //不再enum 的 則  吐原值
-            o = (QqState) Enum.Parse(typeof(QqState), name);
+            var type = typeof(QqState);
+            o = (QqState) Enum.Parse(type, name);
             Console.WriteLine(o);
 
             // 如果無法轉換則抱錯
