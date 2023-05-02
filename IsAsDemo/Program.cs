@@ -16,10 +16,16 @@ namespace IsAsDemo
 
             #region is  如果能成通轉換 返回true ;
 
+            if (student is Student)
+            {
+                Student s = (Student) student;
+                s.StudentSayHello();
+            }
+            
             if (student is Teacher)
             {
                 Teacher s = (Teacher) student;
-                s.PersonSayHello();
+                s.TeacherSayHello();
             }
             else
             {
