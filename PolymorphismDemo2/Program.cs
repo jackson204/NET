@@ -15,6 +15,14 @@ namespace PolymorphismDemo2
             Animal cat = new Cat();
             dog.Bark();
             cat.Bark();
+
+            Console.WriteLine(new string('*', 10));
+            
+            var circle = new Circle(10);
+            var area = circle.GetArea();
+            Console.WriteLine($"圓面積為{area}");
+            var perimeter = circle.GetPerimeter();
+            Console.WriteLine($"圓周長為{perimeter}");
         }
 
         public abstract class Animal
@@ -54,4 +62,35 @@ namespace PolymorphismDemo2
             Console.WriteLine("老師好");
         }
     }
+    public abstract class Shape
+    {
+        public abstract double GetArea();
+        public abstract double GetPerimeter();
+    }
+    public class Circle : Shape
+    {
+        private double _radius;
+
+        public double Radius
+        {
+            get => _radius;
+            set => _radius = value;
+        }
+
+        public Circle(double radius)
+        {
+            this.Radius = radius;
+        }
+
+        public override double GetArea()
+        {
+            return Math.PI * Math.Pow(Radius, 2);
+        }
+
+        public override double GetPerimeter()
+        {
+            return 2 * Math.PI * Radius;
+        }
+    }
+    
 }
