@@ -9,10 +9,31 @@ namespace PolymorphismDemo
             var korean = new Korean("Hello");
             var chinese = new Chinese("Hello");
             Person[] persons = { korean, chinese };
+
+            #region 使用 is 關鍵字判斷型別
+
+            foreach (Person person in persons)
+            {
+                if (person is Chinese chinese1)
+                {
+                    chinese1.SayHello();
+                }
+                else if (person is Korean korean1)
+                {
+                    korean1.SayHello();
+                }
+            }
+
+            #endregion
+
+            #region 虛方法 將父方法標記virtual，子方法標記override
+
             foreach (var item in persons)
             {
                 item.SayHello();
             }
+
+            #endregion
         }
     }
 
@@ -31,7 +52,7 @@ namespace PolymorphismDemo
             this.Name = name;
         }
 
-        public void SayHello()
+        public virtual void SayHello()
         {
             System.Console.WriteLine($"Hello, Person");
         }
@@ -43,7 +64,7 @@ namespace PolymorphismDemo
         {
         }
 
-        public void SayHello()
+        public override void SayHello()
         {
             System.Console.WriteLine($"Hello, Chinese");
         }
@@ -55,7 +76,7 @@ namespace PolymorphismDemo
         {
         }
 
-        public void SayHello()
+        public override void SayHello()
         {
             System.Console.WriteLine($"Hello, Korean");
         }
