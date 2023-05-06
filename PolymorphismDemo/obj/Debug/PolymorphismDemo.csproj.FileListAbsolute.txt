@@ -1,0 +1,7 @@
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\bin\Debug\PolymorphismDemo.exe
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\bin\Debug\PolymorphismDemo.pdb
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\obj\Debug\PolymorphismDemo.csproj.AssemblyReference.cache
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\obj\Debug\PolymorphismDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\obj\Debug\PolymorphismDemo.csproj.CoreCompileInputs.cache
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\obj\Debug\PolymorphismDemo.exe
+C:\Users\s9740\RiderProjects\NET\PolymorphismDemo\obj\Debug\PolymorphismDemo.pdb
