@@ -110,6 +110,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListDemo", "ArrayListD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo", "PolymorphismDemo\PolymorphismDemo.csproj", "{06571E3E-4794-415C-BDFA-1AE99C0F72B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo2", "PolymorphismDemo2\PolymorphismDemo2.csproj", "{37C833D4-7ECD-4186-B406-FAD712D6030C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo3", "PolymorphismDemo3\PolymorphismDemo3.csproj", "{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -336,5 +340,13 @@ Global
 		{06571E3E-4794-415C-BDFA-1AE99C0F72B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06571E3E-4794-415C-BDFA-1AE99C0F72B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06571E3E-4794-415C-BDFA-1AE99C0F72B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C833D4-7ECD-4186-B406-FAD712D6030C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C833D4-7ECD-4186-B406-FAD712D6030C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C833D4-7ECD-4186-B406-FAD712D6030C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C833D4-7ECD-4186-B406-FAD712D6030C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
