@@ -114,6 +114,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo2", "Polymo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo3", "PolymorphismDemo3\PolymorphismDemo3.csproj", "{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterfaceDemo", "IterfaceDemo\IterfaceDemo.csproj", "{B5394292-FB19-4F2E-A9CD-1D9085DF7E8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -348,5 +350,9 @@ Global
 		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B6DE3E-F120-4EA7-B040-2260A14D6BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5394292-FB19-4F2E-A9CD-1D9085DF7E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5394292-FB19-4F2E-A9CD-1D9085DF7E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5394292-FB19-4F2E-A9CD-1D9085DF7E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5394292-FB19-4F2E-A9CD-1D9085DF7E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
