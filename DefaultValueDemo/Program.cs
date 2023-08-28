@@ -8,8 +8,10 @@ namespace DefaultValueDemo
         public static void Main(string[] args)
         {
             var a = default(int);
+            int b = default;
             var o = default(Object);
-            var s = default(string);                    
+            var s = default(string);
+            string s2 = default;
         }
     }
 }
